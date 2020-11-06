@@ -1,0 +1,26 @@
+.singleBoardComponent {
+    height: 60px;
+    /* background-color: #ffe5d9; */
+    background-image: linear-gradient(to right,#ffe5d9 , #fff1e6);
+    color: #293241;
+    width: 100%;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    border-radius: 12px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.singleBoardSubHeading {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    width: 30%;
+}
+
+.singleBoardSubHeading > small {
+    color: black;
+}

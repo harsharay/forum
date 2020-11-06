@@ -1,0 +1,46 @@
+.App {
+  text-align: center;
+}
+
+.header{
+  margin: 50px;
+  background-color: #9d8189;
+  color: white;
+  height: 10vh;
+  border-radius: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center ;
+}
+
+.paragraphBlocks {
+  margin-top: 5vh;
+  text-align: left;
+  padding: 30px 50px;
+  font-size: medium;
+  font-weight: 600;
+  height: 2vh;
+  width: 500px;
+  /* background-color: red; */
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.pinnedBoardBlock {
+  padding: 0 50px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 45px 0;
+}
+
+.otherBoardBlock {
+  /* border: 2px solid #4361ee; */
+  border-radius: 12px;
+  height: 80vh;
+  margin: 0 50px;
+  /* display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-start; */
+}

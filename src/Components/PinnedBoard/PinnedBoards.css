@@ -1,0 +1,12 @@
+.pinnedBoardComponent {
+    width: 20vw;
+    height: 10vh;
+    border-radius: 20px 20px 0 20px;
+    /* background-color: #d8e2dc; */
+    background-image: linear-gradient(to left,#fad2e1 , #fde2e4);
+    color: #293241;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
